@@ -1,0 +1,278 @@
+*
+{
+margin:0;
+font-family:Arial;
+border:border-box;
+}
+#assignment
+{
+    
+    height:400px;
+    width:100%;
+    background-image: url("Background.png");
+    background-size:cover;
+    display:inline-block;
+    align-items:center;
+    
+}
+/* justify-content:space-evenly; */
+#Content
+{
+    height:100px;
+    width: 350px;
+    padding-left: 5%;
+    
+}
+a
+{
+    font-family:Arial;
+    color:#cccccc;
+    font-size:30px;
+    /* margin-top:300px; */
+    margin-left:100px;
+    margin-top: 20px; 
+    display: inline-block
+}
+/** box 1**/
+.MainBox
+{
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.Box1
+{
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.Box2
+{
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.Box3
+{
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.Box4
+{
+    background-color:white;
+    height:250px;
+    width:250px;
+}
+.logo1
+{
+    
+    position: relative;
+    top: 0%;
+    left: 35%;
+    transform: translateX(-50%);
+    transform:translateY(-50%);
+    border-radius: 50%;
+    /* padding: 10px; */
+    color: rgb(4, 254, 100);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid #1b07f5
+}
+.logo2
+{
+    position: relative;
+    top: 0%;
+    left: 35%;
+    transform: translateX(-50%);
+    transform:translateY(-50%);
+   color:rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid #06ea37
+}
+.logo3
+{
+    position: relative;
+    top: 0%;
+    left: 35%;
+    transform: translateX(-50%);
+    transform:translateY(-50%);
+   color:rgb(0, 115, 255);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid #ea063b
+}
+.logo4
+{
+    position: relative;
+    top: 0%;
+    left: 35%;
+    transform: translateX(-50%);
+    transform:translateY(-50%);
+   color:rgb(255, 0, 0);
+    border-radius: 50%;
+    /* padding: 10px; */
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid #ea9e06    
+}
+.InnerBox1
+{
+    height:240px;
+    width:250px;
+    transform:translateY(-25%);
+    background-color:transparent;
+   
+}
+#text1
+{
+    padding:1%;   
+color:black;
+font-size:20px;
+font-weight:bold;
+display: flex;
+justify-content: center;
+transform:translateY(90%);
+/* transform:translateY(40%);
+transform:translateX(-70%); 
+margin-right:50px; */
+
+}
+#text2
+{
+    color:black;
+    font-weight:bold;
+font-size:20px;
+display: flex;
+justify-content: center;
+transform:translateY(30%);
+
+}
+#text3
+{
+    padding:1%;
+    color:gray;
+font-size:15px;
+display: flex;
+justify-content: center;
+transform:translateY(60%);
+}
+#text4
+{
+    color:gray;
+font-size:15px;
+display: flex;
+justify-content: center; 
+  
+}
+#text5
+{
+    color:gray;
+    font-size:15px;
+    display: flex;
+    justify-content: center; 
+    transform:translateY(-40%);  
+}
+#text6
+{
+    color:purple;
+    font-size:17px;
+    display: flex;
+    justify-content: center; 
+    font-weight:bold;
+    
+}
+/** Box 2 **/
+#Note1
+{
+    padding:2%;   
+color:black;
+font-size:20px;
+font-weight:bold;
+display: flex;
+justify-content: center;
+transform:translateY(100%);
+/* transform:translateY(40%);
+transform:translateX(-70%); 
+margin-right:50px; */
+}
+#Note2
+{
+    padding:5%;
+    color:gray;
+font-size:15px;
+display: flex;
+justify-content: center;
+transform:translateY(50%);
+}
+#Note3
+{
+    color:gray;
+font-size:15px;
+display: flex;
+justify-content: center; 
+transform:translateY(100%);
+ 
+}
+#Note4
+{
+    padding:3%;
+    color:gray;
+font-size:15px;
+display: flex;
+justify-content: center;
+
+ 
+}
+.MainBox:hover
+ {
+    transform:rotate(360deg);
+ }  
+.InnerBox1:hover
+{
+    
+    animation:myname 2s linear 0s infinite normal;
+    
+    
+}
+@keyframes myname 
+    {
+        100%{transform:rotate(360deg); }
+    }
+.Box1:hover
+{
+    transform:rotate(360deg);
+}
+.Box2:hover
+{
+    transform:rotate(360deg);
+}
+.Box3:hover
+{
+    transform:rotate(360deg);
+}
+.Box4:hover
+{
+    transform:rotate(360deg);
+}
